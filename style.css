@@ -1,17 +1,9 @@
 svg {
-  display: block;
-  width: 100%;
+margin: 0;
+	overflow: hidden;
   position: fixed;
 }
 
-#Reflections,
-#Sun {
-  -webkit-animation: flicker 2s infinite;
-          animation: flicker 2s infinite;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  opacity: 0.8;
-}
 .dorothystanding {
 	position: fixed;
 	bottom: 5px;
