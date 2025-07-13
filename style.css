@@ -1,0 +1,385 @@
+svg {
+  display: block;
+  width: 100%;
+  position: fixed;
+}
+
+#Reflections,
+#Sun {
+  -webkit-animation: flicker 2s infinite;
+          animation: flicker 2s infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  opacity: 0.8;
+}
+.dorothystanding {
+	position: fixed;
+	bottom: 5px;
+	left: 28%;
+	bottom: 390px;
+	z-index: 300;
+}
+.totostanding {
+	position: fixed;
+	bottom: 0;
+	left: 74%;
+	bottom: 0px;
+	z-index: 500;
+}
+.wiztext {
+	color: #00FFFF;
+	margin-top: 10%;
+	font-family: 'TinWoodman';
+	font-size: 8vw;
+	opacity: 0.45;
+	text-align: left;
+	letter-spacing: 10px;
+	position: fixed;
+	width: 200%;
+	min-width: 3000px;
+	z-index: 2000;
+	display: inline-block;
+	  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, .05), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+
+	animation: whiz 30s infinite linear;
+	-webkit-animation: whiz 60s infinite linear;
+}
+
+
+
+.animated {
+	visibility: visible !important;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+}
+
+
+
+
+ @keyframes whiz {
+ 0% {
+ left: 250%;
+}
+ 100% {
+ left: -250%;
+}
+}
+@-webkit-keyframes whiz {
+ 0% {
+ left: 250%;
+}
+ 100% {
+ left: -250%;
+}
+}
+.x {
+	-webkit-animation: x 20s linear infinite alternate;
+	animation: x 20s linear infinite alternate;
+}
+.y {
+	-webkit-animation: y 10s linear infinite alternate;
+	animation: y 10s linear infinite alternate;
+}
+ @-webkit-keyframes x {
+ 100% {
+ -webkit-transform: translateX(calc(100vw - 300px));
+ transform: translateX(calc(100vw - 300px));
+}
+}
+ @keyframes x {
+ 100% {
+ -webkit-transform: translateX(calc(100vw - 300px));
+ transform: translateX(calc(100vw - 300px));
+}
+}
+@-webkit-keyframes y {
+ 100% {
+ -webkit-transform: translateY(calc(100vh - 300px));
+ transform: translateY(calc(100vh - 300px));
+}
+}
+@keyframes y {
+ 100% {
+ -webkit-transform: translateY(calc(100vh - 300px));
+ transform: translateY(calc(100vh - 300px));
+}
+}
+#_x3C_Leaf4_x3E_,
+#_x3C_Leaf3_x3E_,
+#_x3C_Leaf2_x3E_,
+#_x3C_Leaf1_x3E_ {
+  -webkit-animation: sway2 4s infinite;
+          animation: sway2 4s infinite;
+  transition-timing-function: ease-in-out;
+}
+
+#_x3C_Leaf1_x3E_ {
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+
+#_x3C_Leaf2_x3E_ {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+#_x3C_Leaf3_x3E_ {
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+
+#_x3C_Leaf4_x3E_ {
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+
+#_x3C_Leaf6_x3E_,
+#_x3C_Leaf5_x3E_,
+#_x3C_Leaf8_x3E_,
+#_x3C_Leaf7_x3E_ {
+  position: relative;
+  transform-origin: 0, 0;
+  -webkit-animation: sway 5s infinite;
+          animation: sway 5s infinite;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-10px);
+}
+
+#_x3C_Leaf6_x3E_ {
+  -webkit-animation-delay: -0.25s;
+          animation-delay: -0.25s;
+}
+
+#_x3C_Stem4_x3E__2_,
+#_x3C_Stem3_x3E_,
+#_x3C_Stem2_x3E_,
+#_x3C_Stem1_x3E_ {
+  -webkit-animation: plant 4s infinite;
+          animation: plant 4s infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+#_x3C_Bush_x3E_ {
+  -webkit-animation: bush 8s infinite;
+          animation: bush 8s infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+#_x3C_leaf_x3E__5_,
+#_x3C_leaf_x3E__3_,
+#_x3C_leaf_x3E__8_ {
+  -webkit-animation: leaves 2s infinite;
+          animation: leaves 2s infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+#_x3C_leaf_x3E__3_ {
+  -webkit-animation-delay: -2.25s;
+          animation-delay: -2.25s;
+}
+
+#_x3C_leaf_x3E__8_ {
+  -webkit-animation-delay: -2.5s;
+          animation-delay: -2.5s;
+}
+
+#_x3C_Stem4_x3E__2_ {
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+#_x3C_Stem3_x3E_ {
+  -webkit-animation-delay: -2.25s;
+          animation-delay: -2.25s;
+}
+
+#_x3C_Stem3_x3E_ {
+  -webkit-animation-delay: -2.5s;
+          animation-delay: -2.5s;
+}
+
+#_x3C_Stem3_x3E_ {
+  -webkit-animation-delay: -2.75s;
+          animation-delay: -2.75s;
+}
+
+#Clouds_1_ {
+  position: relative;
+  transform-origin: 0, 0;
+  -webkit-animation: clouds 15s 1;
+          animation: clouds 15s 1;
+  transition-timing-function: ease-in;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+#_x3C_Hammock_x5F_Group_x3E_ {
+  position: relative;
+  -webkit-animation: hammock 3s infinite;
+          animation: hammock 3s infinite;
+  transition-timing-function: ease-in-out;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  transform: rotateX(-10deg) translateX(-5px) translateY(-1px) skewX(-1deg);
+}
+
+#_x3C_FrontSarong_x3E_ {
+  transform: translateZ(300px) rotateX(0deg);
+}
+
+#_x3C_BackSarong_x3E_ {
+  transform: translateZ(-300px) rotateX(-30deg) translateY(20px);
+}
+
+#_x3C_UpArm_x3E_ {
+  transform: translateZ(100px);
+}
+
+@-webkit-keyframes clouds {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes clouds {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+@-webkit-keyframes sway {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+    transform-origin: 0%, 0%;
+  }
+  50% {
+    transform-origin: 50%, 50%;
+    transform: rotate(-5deg) translateY(30px) translateX(-5px);
+  }
+}
+@keyframes sway {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+    transform-origin: 0%, 0%;
+  }
+  50% {
+    transform-origin: 50%, 50%;
+    transform: rotate(-5deg) translateY(30px) translateX(-5px);
+  }
+}
+@-webkit-keyframes sway2 {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    transform-origin: 0%, 0%;
+  }
+  50% {
+    transform-origin: 50%, 50%;
+    transform: rotate(-5deg) translateY(10px) translateX(-5px);
+  }
+}
+@keyframes sway2 {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    transform-origin: 0%, 0%;
+  }
+  50% {
+    transform-origin: 50%, 50%;
+    transform: rotate(-5deg) translateY(10px) translateX(-5px);
+  }
+}
+@-webkit-keyframes hammock {
+  0% {
+    transform: rotateX(-10deg) translateX(-5px) translateY(-1px) skewX(-1deg);
+  }
+  50% {
+    transform: rotateX(10deg) translateX(-5px) translateY(1px) skewX(1deg);
+  }
+}
+@keyframes hammock {
+  0% {
+    transform: rotateX(-10deg) translateX(-5px) translateY(-1px) skewX(-1deg);
+  }
+  50% {
+    transform: rotateX(10deg) translateX(-5px) translateY(1px) skewX(1deg);
+  }
+}
+@-webkit-keyframes plant {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(5deg) translateX(10px) translateY(-9px) skewX(2deg);
+  }
+}
+@keyframes plant {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(5deg) translateX(10px) translateY(-9px) skewX(2deg);
+  }
+}
+@-webkit-keyframes bush {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(3deg) translateX(5px) translateY(0px) skewX(2deg);
+  }
+}
+@keyframes bush {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(3deg) translateX(5px) translateY(0px) skewX(2deg);
+  }
+}
+@-webkit-keyframes leaves {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(-3deg) translateX(-14px) translateY(0px) skewX(1deg);
+  }
+}
+@keyframes leaves {
+  0% {
+    transform: rotate(0deg) translateY(0px) skewX(0deg);
+  }
+  50% {
+    transform: rotate(-3deg) translateX(-14px) translateY(0px) skewX(1deg);
+  }
+}
+@-webkit-keyframes flicker {
+  0% {
+    transform: translateX(0px) skewX(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-9px) skewX(1deg) scale(1.05, 1);
+    opacity: 1;
+  }
+}
+@keyframes flicker {
+  0% {
+    transform: translateX(0px) skewX(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-9px) skewX(1deg) scale(1.05, 1);
+    opacity: 1;
+  }
+}
